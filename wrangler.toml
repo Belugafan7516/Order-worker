@@ -1,0 +1,7 @@
+name = "order-email-worker"
+main = "worker.js"
+compatibility_date = "2024-03-20"
+
+# This ensures the worker doesn't try to use assets (website files) 
+# since we are only building an API here.
+
