@@ -3,7 +3,7 @@ export default {
     // 1. Handle CORS (Cross-Origin Resource Sharing)
     // This is crucial to allow your browser app to talk to this worker.
     const corsHeaders = {
-      "Access-Control-Allow-Origin": "*", // In production, change '*' to your specific domain
+      "Access-Control-Allow-Origin": "https://orderapp-jet.vercel.app", // In production, change '*' to your specific domain
       "Access-Control-Allow-Methods": "POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type",
     };
