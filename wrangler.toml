@@ -1,4 +1,4 @@
-name = "order-email-worker"
+name = "order-worker"
 main = "worker.js"
 compatibility_date = "2024-03-20"
 
